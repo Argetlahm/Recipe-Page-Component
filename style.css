@@ -9,3 +9,7 @@
 .header-img img{
   width: 100%;
 }
+
+.recipe-container {
+  width: 375px;
+}
