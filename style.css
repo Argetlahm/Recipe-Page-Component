@@ -5,6 +5,20 @@
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+body {
+  /* width: 375px; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(24, 5%, 18%);
+}
+
+.sgs-flex {
+  display: flex;
+  
+  
+}
   
 .header-img img{
   width: 100%;
@@ -12,4 +26,5 @@
 
 .recipe-container {
   width: 375px;
+  background-color: white;
 }
