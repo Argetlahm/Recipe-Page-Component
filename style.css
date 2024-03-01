@@ -12,19 +12,46 @@ body {
   justify-content: center;
   align-items: center;
   background-color: hsl(24, 5%, 18%);
+  font-family: "Outfit", sans-serif;
 }
 
 .sgs-flex {
   display: flex;
   
-  
 }
+
+h1, h2 {
+  font-family: "Young Serif", serif;
+}
+
+
   
 .header-img img{
   width: 100%;
 }
 
+.recipe-content {
+  padding: 20px 30px;
+}
+
+.recipe-title {
+  font-size: 2.2rem;
+  line-height: 2.2rem;
+  color: hsl(24, 5%, 18%);
+}
+
 .recipe-container {
   width: 375px;
   background-color: white;
+}
+
+.highlight {
+  background-color: hsl(30, 54%, 90%);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
 }
