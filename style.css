@@ -46,6 +46,7 @@ h1, h2 {
   padding: 20px 30px;
 }
 
+
 .recipe-title {
   font-size: 2.1rem;
   line-height: 2.2rem;
@@ -65,7 +66,7 @@ h1, h2 {
   border-radius: 10px;
 }
 
-.highlight-title {
+.highlight-title, h2 {
   color: hsl(332, 51%, 32%)
 }
 
@@ -74,7 +75,7 @@ h1, h2 {
   color: hsl(30, 10%, 34%);
 }
 
-.highlight li {
+.highlight li, .ing-list li {
   /* text-indent: 10px; */
   /* padding-left: 15px; */
   list-style-type: disc;
@@ -92,7 +93,7 @@ h1, h2 {
   margin-left: 15px;
 }
 
-.highlight li::before {
+.highlight li::before, .ing-list li::before {
   --scale: 0.25rem;
   content: "";
   width: var(--scale);
@@ -103,7 +104,15 @@ h1, h2 {
   /* margin-top: 10px; */
 }
 
+.ing-list li::before{
+  margin-left: -2rem;
+}
+
 h3 {
   margin: 0;
   padding: 0;
+}
+
+hr{
+  margin: 2rem 0;
 }
